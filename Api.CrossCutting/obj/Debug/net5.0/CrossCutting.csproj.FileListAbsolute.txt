@@ -1,0 +1,12 @@
+C:\Users\Leandro\Projetos\NetCore\Api.CrossCutting\bin\Debug\net5.0\CrossCutting.deps.json
+C:\Users\Leandro\Projetos\NetCore\Api.CrossCutting\bin\Debug\net5.0\CrossCutting.dll
+C:\Users\Leandro\Projetos\NetCore\Api.CrossCutting\bin\Debug\net5.0\ref\CrossCutting.dll
+C:\Users\Leandro\Projetos\NetCore\Api.CrossCutting\bin\Debug\net5.0\CrossCutting.pdb
+C:\Users\Leandro\Projetos\NetCore\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.AssemblyReference.cache
+C:\Users\Leandro\Projetos\NetCore\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leandro\Projetos\NetCore\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.AssemblyInfoInputs.cache
+C:\Users\Leandro\Projetos\NetCore\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.AssemblyInfo.cs
+C:\Users\Leandro\Projetos\NetCore\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\Projetos\NetCore\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.dll
+C:\Users\Leandro\Projetos\NetCore\Api.CrossCutting\obj\Debug\net5.0\ref\CrossCutting.dll
+C:\Users\Leandro\Projetos\NetCore\Api.CrossCutting\obj\Debug\net5.0\CrossCutting.pdb
