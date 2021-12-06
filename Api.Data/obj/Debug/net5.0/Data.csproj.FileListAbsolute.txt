@@ -13,3 +13,6 @@ C:\Users\Leandro\Projetos\NetCore\Api.Data\obj\Debug\net5.0\Data.dll
 C:\Users\Leandro\Projetos\NetCore\Api.Data\obj\Debug\net5.0\ref\Data.dll
 C:\Users\Leandro\Projetos\NetCore\Api.Data\obj\Debug\net5.0\Data.pdb
 C:\Users\Leandro\Projetos\NetCore\Api.Data\obj\Debug\net5.0\Data.genruntimeconfig.cache
+C:\Users\Leandro\Projetos\NetCore\Api.Data\bin\Debug\net5.0\Domain.dll
+C:\Users\Leandro\Projetos\NetCore\Api.Data\bin\Debug\net5.0\Domain.pdb
+C:\Users\Leandro\Projetos\NetCore\Api.Data\obj\Debug\net5.0\Data.csproj.CopyComplete

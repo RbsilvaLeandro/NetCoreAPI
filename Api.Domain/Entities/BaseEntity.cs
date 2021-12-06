@@ -7,7 +7,7 @@ namespace Api.Domain.Entities
     {
         [Key]
         public Guid Id { get; set; }
-        private DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; } = DateTime.Now;
+        public DateTime? UpdatedAt { get; set; }
     }
 }

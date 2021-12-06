@@ -9,3 +9,4 @@ C:\Users\Leandro\Projetos\NetCore\Api.Services\obj\Debug\net5.0\Services.csproj.
 C:\Users\Leandro\Projetos\NetCore\Api.Services\obj\Debug\net5.0\Services.dll
 C:\Users\Leandro\Projetos\NetCore\Api.Services\obj\Debug\net5.0\ref\Services.dll
 C:\Users\Leandro\Projetos\NetCore\Api.Services\obj\Debug\net5.0\Services.pdb
+C:\Users\Leandro\Projetos\NetCore\Api.Services\obj\Debug\net5.0\Services.csproj.AssemblyReference.cache

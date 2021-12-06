@@ -7,9 +7,9 @@ namespace Api.Data.Context
     {
         public Context CreateDbContext(string[] args)
         {
-            var connectionStrings = "Server=localhost;Port=3306;Database=Api;Uid=root;Pwd=nigt@c#52489700";
+            var connectionStrings = "Server=localhost;Port=3306;Database=Api;Uid=root;Pwd=Nigt@c#52489700";
             var optionsBuilder = new DbContextOptionsBuilder<Context>();
-            optionsBuilder.UseMySql(connectionStrings, ServerVersion.AutoDetect(connectionStrings), null);
+            optionsBuilder.UseMySql(connectionStrings, ServerVersion.AutoDetect(connectionStrings));
             return new Context(optionsBuilder.Options);
         }
     }

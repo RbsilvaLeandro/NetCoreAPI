@@ -1542,6 +1542,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -5855,10 +5865,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Api.Domain/Domain.csproj",
+      "msbuildProject": "../Api.Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.12",
@@ -5872,11 +5888,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leandro\\Projetos\\NetCore\\Api.data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\Leandro\\Projetos\\NetCore\\Api.Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\Leandro\\Projetos\\NetCore\\Api.data\\Data.csproj",
+      "projectPath": "C:\\Users\\Leandro\\Projetos\\NetCore\\Api.Data\\Data.csproj",
       "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leandro\\Projetos\\NetCore\\Api.data\\obj\\",
+      "outputPath": "C:\\Users\\Leandro\\Projetos\\NetCore\\Api.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5892,7 +5908,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Leandro\\Projetos\\NetCore\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Leandro\\Projetos\\NetCore\\Api.Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
