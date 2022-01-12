@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Data.Migrations
 {
-    [DbContext(typeof(Context))]
+    [DbContext(typeof(ApiContext))]
     [Migration("20211201152304_UserMigration")]
     partial class UserMigration
     {

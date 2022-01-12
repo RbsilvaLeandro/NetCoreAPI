@@ -1,16 +1,17 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Api.Data.Context;
 using Api.Domain.Entities;
-using Api.Domain.Interfaces;
+using Api.Domain.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
 namespace Api.Data.Repository
 {
-    public class RepositoryBase<T> : IRepository<T> where T : BaseEntity
+    public class RepositoryBase<T> : IRepositoryBase<T> where T : BaseEntity
     {
-        private readonly Api.Data.Context.Context _context;
+        private readonly ApiContext _context;
         private DbSet<T> _db;
-        public RepositoryBase(Api.Data.Context.Context context)
+        public RepositoryBase(ApiContext context)
         {
             _context = context;
             _db = _context.Set<T>();

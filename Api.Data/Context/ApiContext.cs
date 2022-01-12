@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
           
 namespace Api.Data.Context
 {
-    public class Context : DbContext
+    public class ApiContext : DbContext
     {
         public DbSet<User> Users { get; set; }
 
-        public Context(DbContextOptions<Context> options) : base(options) { }
+        public ApiContext(DbContextOptions<ApiContext> options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
